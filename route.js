@@ -4,8 +4,7 @@ const router = Router();
 
 router.get("/gethnginfo", (req, res, next) => {
   res.status(200).json({
-    status: "Success",
-    data: output,
+    output,
   });
 });
 module.exports = router;
